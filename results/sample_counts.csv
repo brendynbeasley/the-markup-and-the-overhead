@@ -1,0 +1,13 @@
+step,rows
+filer-years with revenue in the SEC panel,70983
+in 2011-2025,70983
+dropped: no positive revenue and COGS,16535
+"of those kept, COGS from the Compustat identity",46198
+"of those kept, COGS from the identity with no SG&A line",2997
+"of those kept, COGS from the cost-of-revenue tag",5253
+dropped: incorporated outside the US or state unknown (paper: US-incorporated),5950
+dropped: no SIC industry code (paper: firms without an industry code excluded),5
+"dropped: banks, insurers and real estate (SIC 6000-6799), whose XBRL cost lines are not COGS",5036
+dropped: top or bottom 1% of COGS/sales or overhead/sales in its year,1553
+kept: firm-years in the markup sample,41904
+kept: distinct firms,6529

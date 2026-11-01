@@ -1,0 +1,18 @@
+# Quarterly SEC Financial Statement Data Set zips (about 5.6 GB); src/fetch_sec.py re-downloads them if needed.
+# The compact files built from them (data/raw/sec_firm_years.csv.gz, data/raw/sec_companies.csv) are committed.
+data/raw/sec/
+
+# Secrets
+*.key
+*_key.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# System
+.DS_Store
+*.zip
+*.part
